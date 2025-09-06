@@ -1,2 +1,2 @@
-# Primeiro readme.md
-Teste
+# Boturismo
+Boturismo - O chatbot que vai lhe apresentar o CRAJUBAR.
