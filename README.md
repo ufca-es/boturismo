@@ -1,6 +1,7 @@
 # ☀️ Boturismo - O chatbot que vai lhe apresentar o CRAJUBAR.
 ### OBJETIVO
-    Solucionar dúvidas do usuário em relação a temas que englobam tópicos como: gastronomia, pontos turísticos, festas e comércio na região do *CRAJUBAR*.
+    Solucionar dúvidas do usuário em relação a temas que englobam tópicos como: 
+    gastronomia, pontos turísticos, festas e comércio na região do *CRAJUBAR*.
 ---
     NOME DA EQUIPE | PERFIL |
     ---------------|--------|
