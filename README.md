@@ -1,5 +1,6 @@
 # ☀️ Boturismo - O chatbot que vai lhe apresentar o CRAJUBAR.
 ## DO QUE SE TRATA?
+---
 Boturismo é um chatbot em Python que está sendo desenvolvido com objetivo educativo,
 para responder perguntas relacionadas ao CRAJUBAR — região do Cariri cearense formada
 pelas cidades de Crato, Juazeiro do Norte e Barbalha. A aplicação permitirá que estudantes,
@@ -8,7 +9,7 @@ históricos, culturais, geográficos e sociais da região.
 ---
 
 ### OBJETIVO
-
+---
 Solucionar dúvidas do usuário em relação a temas que englobam tópicos como: 
 gastronomia, pontos turísticos, festas e comércio na região do **CRAJUBAR**.
 ---
