@@ -5,3 +5,5 @@ class ChatBot:
     def get_response(self, user_input: str) -> str:
         user_input = user_input.lower().strip()
         return self.responses.get(user_input, "Desculpe, não entendi o que você quis dizer.")
+    
+    
