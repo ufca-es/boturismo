@@ -1,0 +1,244 @@
+{
+  "juazeiro do norte": {
+    "formal": [
+      {
+        "perguntas": ["história", "histórias"],
+        "resposta": "Juazeiro do Norte foi fundada em 1911 e cresceu em torno da figura do Padre Cícero Romão Batista, líder religioso e político que atraiu milhares de romeiros. Até hoje, a cidade é um dos maiores centros de fé popular do Brasil."
+      },
+      {
+        "perguntas": ["pontos turísticos", "onde ir", "onde visitar", "locais para visita", "visita", "visitar"],
+        "resposta": "Colina do Horto: Estátua do Padre Cícero, simbolismo religioso e vista panorâmica da cidade. Igreja Matriz & Basílica de São Francisco: Patrimônios religiosos com valor artístico. Mercado Central: Artesanato, gastronomia e cultura local."
+      },
+      {
+        "perguntas": ["festas", "eventos", "festa", "evento", "costumes"],
+        "resposta": "As maiores festas são as romarias de Padre Cícero (24 de março, 20 de julho e 2 de novembro) e a Festa de Nossa Senhora das Candeias, em fevereiro, que reúne milhares de romeiros."
+      },
+      {
+        "perguntas": ["como chegar", "aeroporto", "estradas", "rodoviária"],
+        "resposta": "Você pode chegar de avião, pelo Aeroporto Orlando Bezerra (a 6 km do centro), ou de ônibus pela rodoviária. A cidade também é acessível pela BR-116 e CE-060 para quem vem de carro."
+      },
+      {
+        "perguntas": ["gastronomia", "comida", "o que comer", "pratos típicos"],
+        "resposta": "Os pratos típicos são carne de sol com baião de dois, panelada, tapioca e doces regionais. O Mercado Central é ótimo para provar comidas locais."
+      },
+      {
+        "perguntas": ["compras", "souvenirs", "lembranças", "artesanato"],
+        "resposta": "Artesanato religioso é muito procurado: imagens de Padre Cícero, terços, velas, cordéis e xilogravuras. Você encontra bastante no Mercado Central e na Feira de Artesanato da Mãe das Dores."
+      }
+    ],
+    "engraçada": [
+      {
+        "perguntas": ["história", "histórias"],
+        "resposta": "Ôxe, Juazeiro do Norte é a terra do Padim Ciço, mermão! Fundada em 1911, cresceu com a galera vindo fazer promessa e fé. Até hoje a cidade é tipo a capital da fé, cheia de romeiro e gente boa."
+      },
+      {
+        "perguntas": ["pontos turísticos", "onde ir", "onde visitar", "locais para visita", "visita", "visitar"],
+        "resposta": "Se liga só: vai na Colina do Horto pra ver o Padim Ciço gigante e tirar umas fotos daquelas! Depois passa na Igreja Matriz e Basílica de São Francisco, que são lindas pra danado. E não esquece do Mercado Central, lá é sucesso: comida boa e artesanato top."
+      },
+      {
+        "perguntas": ["festas", "eventos", "festa", "evento", "costumes"],
+        "resposta": "As festas são um estouro! Tem as romarias do Padim Ciço (24/03, 20/07 e 02/11) e a Festa de Nossa Senhora das Candeias em fevereiro. É romeiro que não acaba mais, e a vibe é da hora!"
+      },
+      {
+        "perguntas": ["como chegar", "aeroporto", "estradas", "rodoviária"],
+        "resposta": "Chegar é facim, facim! Pode vir de avião pelo Aeroporto Orlando Bezerra, que fica pertinho do centro, ou pegar ônibus pela rodoviária. De carro, segue a BR-116 ou a CE-060 e tá tudo certo."
+      },
+      {
+        "perguntas": ["gastronomia", "comida", "o que comer", "pratos típicos"],
+        "resposta": "Rapaz, se prepara! Aqui tem carne de sol com baião de dois que é de lamber os beiço, panelada, tapioca e uns doces que só vendo. Mercado Central é o point pra provar essas delícias."
+      },
+      {
+        "perguntas": ["compras", "souvenirs", "lembranças", "artesanato"],
+        "resposta": "Se liga nos souvenirs: tem imagem do Padim Ciço, terço, vela, cordel e xilogravura. É sucesso pra levar pra casa e impressionar a galera!"
+      }
+    ],
+    "rude": [
+      {
+        "perguntas": ["história", "histórias"],
+        "resposta": "Juazeiro do Norte nasceu em 1911 por causa do Padre Cícero. Ponto. Cresceu com romeiros e fé popular. É isso."
+      },
+      {
+        "perguntas": ["pontos turísticos", "onde ir", "onde visitar", "locais para visita", "visita", "visitar"],
+        "resposta": "Colina do Horto e estátua do Padre Cícero, Igreja Matriz e Basílica de São Francisco, Mercado Central. Vai lá e acabou."
+      },
+      {
+        "perguntas": ["festas", "eventos", "festa", "evento", "costumes"],
+        "resposta": "Romarias do Padre Cícero (24/03, 20/07, 02/11) e Festa de Nossa Senhora das Candeias. Chega cedo ou vai perder a muvuca."
+      },
+      {
+        "perguntas": ["como chegar", "aeroporto", "estradas", "rodoviária"],
+        "resposta": "Aeroporto Orlando Bezerra, ônibus na rodoviária ou de carro pela BR-116/CE-060. Simples."
+      },
+      {
+        "perguntas": ["gastronomia", "comida", "o que comer", "pratos típicos"],
+        "resposta": "Carne de sol com baião de dois, panelada, tapioca. Mercado Central se tiver fome."
+      },
+      {
+        "perguntas": ["compras", "souvenirs", "lembranças", "artesanato"],
+        "resposta": "Imagens do Padre Cícero, terços, velas, cordéis, xilogravuras. Pega e pronto."
+      }
+    ]
+  },
+  "barbalha": {
+    "formal": [
+      {
+        "perguntas": ["história", "histórias"],
+        "resposta": "Barbalha, no Ceará, tem origem no século XVIII e ficou conhecida por suas tradições religiosas, culturais e pelo cultivo da cana-de-açúcar. Tornou-se município em 1876 e hoje integra a região do Cariri, sendo famosa por sua Festa de Santo Antônio."
+      },
+      {
+        "perguntas": ["pontos turísticos", "onde ir", "onde visitar", "locais para visita", "visita", "visitar"],
+        "resposta": "Em Barbalha você pode visitar: o Sítio do Farias (com engenhos históricos de cana-de-açúcar), o Parque Ecológico Riacho do Meio, o Thermas do Caldas, o Arajara, a Igreja Matriz de Santo Antônio e a Chapada do Araripe, com trilhas e fontes naturais."
+      },
+      {
+        "perguntas": ["festas", "eventos", "festa", "evento", "costumes"],
+        "resposta": "A principal festa de Barbalha é a Festa de Santo Antônio, conhecida nacionalmente pela tradição do Pau da Bandeira, que abre os festejos juninos no Cariri. Também acontecem festas religiosas, romarias e eventos culturais ligados à música e à dança popular."
+      },
+      {
+        "perguntas": ["como chegar", "aeroporto", "estradas", "rodoviária"],
+        "resposta": "Barbalha está a cerca de 10 km de Juazeiro do Norte. O acesso pode ser feito pelo Aeroporto Orlando Bezerra (em Juazeiro) e por estradas locais como a CE-060 e CE-293. Também há transporte por ônibus e vans entre as cidades do Cariri."
+      },
+      {
+        "perguntas": ["gastronomia", "comida", "o que comer", "pratos típicos", "culinária"],
+        "resposta": "A gastronomia de Barbalha traz pratos típicos nordestinos como baião de dois, carne de sol, buchada e galinha caipira. Em épocas festivas, destaque para comidas juninas como pamonha, canjica e bolo de milho."
+      },
+      {
+        "perguntas": ["compras", "souvenirs", "lembranças", "artesanato"],
+        "resposta": "Em Barbalha você encontra artesanato em madeira, bordados, rendas e produtos ligados à religiosidade local, além de lembranças da Festa de Santo Antônio."
+      }
+    ],
+    "engraçada": [
+      {
+        "perguntas": ["história", "histórias"],
+        "resposta": "Eita, Barbalha é das antigas, lá do século XVIII! É famosa pelo doce de cana e tradição religiosa. Tornou-se município em 1876 e até hoje o pessoal tá na vibe da fé e da cultura do Cariri."
+      },
+      {
+        "perguntas": ["pontos turísticos", "onde ir", "onde visitar", "locais para visita", "visita", "visitar"],
+        "resposta": "Vai no Sítio do Farias pra ver os engenhos de cana-de-açúcar, dá um rolê no Parque Riacho do Meio, relaxa no Thermas do Caldas e depois sobe na Chapada do Araripe pra foto bonita. Ah, não esquece da Igreja Matriz de Santo Antônio!"
+      },
+      {
+        "perguntas": ["festas", "eventos", "festa", "evento", "costumes"],
+        "resposta": "A festa de Barbalha é o bicho! A famosa Festa de Santo Antônio com o Pau da Bandeira é top demais. E ainda rolam romarias, shows e muita dança com o povo do Cariri."
+      },
+      {
+        "perguntas": ["como chegar", "aeroporto", "estradas", "rodoviária"],
+        "resposta": "Barbalha tá coladinha em Juazeiro, uns 10 km só. Chega de avião pelo Aeroporto de Juazeiro ou de carro pelas CE-060 e CE-293. Tem ônibus e van também, de boa!"
+      },
+      {
+        "perguntas": ["gastronomia", "comida", "o que comer", "pratos típicos"],
+        "resposta": "Se prepara, mermão! Aqui tem baião de dois, carne de sol, buchada e galinha caipira. Nas festas juninas rola pamonha, canjica e bolo de milho. É de deixar qualquer um com fome só de pensar!"
+      },
+      {
+        "perguntas": ["compras", "souvenirs", "lembranças", "artesanato"],
+        "resposta": "Compra umas coisinhas típicas: artesanato em madeira, bordados, rendas e lembranças da Festa de Santo Antônio. Vai fazer bonito com os amigos!"
+      }
+    ],
+    "rude": [
+      {
+        "perguntas": ["história", "histórias"],
+        "resposta": "Barbalha é velha, século XVIII. Conhecida por cana-de-açúcar e tradição religiosa. É isso."
+      },
+      {
+        "perguntas": ["pontos turísticos", "onde ir", "onde visitar", "locais para visita", "visita", "visitar"],
+        "resposta": "Sítio do Farias, Parque Riacho do Meio, Thermas do Caldas, Arajara, Igreja Matriz e Chapada do Araripe. Vai e acabou."
+      },
+      {
+        "perguntas": ["festas", "eventos", "festa", "evento", "costumes"],
+        "resposta": "Festa de Santo Antônio com o Pau da Bandeira. Romarias e eventos culturais. Chega cedo ou fica de fora."
+      },
+      {
+        "perguntas": ["como chegar", "aeroporto", "estradas", "rodoviária"],
+        "resposta": "Barbalha tá a 10 km de Juazeiro. Aeroporto de Juazeiro, CE-060/CE-293 ou ônibus/van. Fácil."
+      },
+      {
+        "perguntas": ["gastronomia", "comida", "o que comer", "pratos típicos"],
+        "resposta": "Baião de dois, carne de sol, buchada, galinha caipira. Festa junina? Pamonha, canjica, bolo de milho."
+      },
+      {
+        "perguntas": ["compras", "souvenirs", "lembranças", "artesanato"],
+        "resposta": "Artesanato em madeira, bordados, rendas e lembranças da festa. Pega e não reclama."
+      }
+    ]
+  },
+  "crato": {
+    "formal": [
+      {
+        "perguntas": ["história", "histórias"],
+        "resposta": "O Crato foi fundado oficialmente em 1764 e é conhecido como a 'Cidade Sorriso' do Cariri. Possui grande importância histórica e cultural na região, sendo referência em educação, arte popular e tradições religiosas."
+      },
+      {
+        "perguntas": ["pontos turísticos", "onde ir", "onde visitar", "locais para visita", "visita", "visitar"],
+        "resposta": "No Crato, você pode visitar: a Igreja do Patrocínio, o Parque de Exposição Pedro Felício Cavalcanti, o Parque Ecológico do Jardim Botânico, o Museu de Paleontologia do Cariri, o Crato Antigo (centro histórico) e a Chapada do Araripe com suas trilhas e cachoeiras."
+      },
+      {
+        "perguntas": ["festas", "eventos", "festa", "evento", "costumes"],
+        "resposta": "O Crato realiza diversas festas religiosas e culturais, destacando-se a Festa de Nossa Senhora da Penha, festas juninas com quadrilhas e a Romaria do Crato, que atrai romeiros de toda a região do Cariri."
+      },
+      {
+        "perguntas": ["como chegar", "aeroporto", "estradas", "rodoviária"],
+        "resposta": "O Crato fica a cerca de 20 km de Juazeiro do Norte. É acessível pelo Aeroporto Orlando Bezerra de Menezes (Juazeiro do Norte) e por rodovias como a BR-116 e CE-292. Ônibus e vans fazem o trajeto entre cidades do Cariri."
+      },
+      {
+        "perguntas": ["gastronomia", "comida", "o que comer", "pratos típicos"],
+        "resposta": "A culinária do Crato inclui pratos típicos do Ceará, como baião de dois, carne de sol, panelada e galinha caipira. Durante festas juninas, há comidas típicas como canjica, pamonha e bolo de milho."
+      },
+      {
+        "perguntas": ["compras", "souvenirs", "lembranças", "artesanato"],
+        "resposta": "O Crato possui feiras de artesanato com rendas, bordados, cerâmica e esculturas em madeira. Também é possível comprar lembranças relacionadas à religiosidade e à cultura do Cariri."
+      }
+    ],
+    "engraçada": [
+      {
+        "perguntas": ["história", "histórias"],
+        "resposta": "Crato é a 'Cidade Sorriso' do Cariri, fundado em 1764. Lugar de gente boa, cheio de cultura, arte popular e tradição religiosa. Aqui o povo é acolhedor, mermão!"
+      },
+      {
+        "perguntas": ["pontos turísticos", "onde ir", "onde visitar", "locais para visita", "visita", "visitar"],
+        "resposta": "Vai conhecer a Igreja do Patrocínio, o Parque Pedro Felício Cavalcanti, o Jardim Botânico, o Museu de Paleontologia, dá um rolê pelo Crato Antigo e se joga nas trilhas e cachoeiras da Chapada do Araripe."
+      },
+      {
+        "perguntas": ["festas", "eventos", "festa", "evento", "costumes"],
+        "resposta": "No Crato, as festas são animadas! Tem a Festa de Nossa Senhora da Penha, quadrilhas juninas e a Romaria do Crato, que enche a cidade de romeiro e alegria."
+      },
+      {
+        "perguntas": ["como chegar", "aeroporto", "estradas", "rodoviária"],
+        "resposta": "Chegar é facinho: Crato tá a uns 20 km de Juazeiro. Vem de avião pelo aeroporto de Juazeiro ou de carro pela BR-116 ou CE-292. Tem ônibus e van pra quem prefere ficar de boa."
+      },
+      {
+        "perguntas": ["gastronomia", "comida", "o que comer", "pratos típicos"],
+        "resposta": "A comida do Crato é daquelas que dá água na boca: baião de dois, carne de sol, panelada e galinha caipira. Nas festas juninas, se joga na pamonha, canjica e bolo de milho!"
+      },
+      {
+        "perguntas": ["compras", "souvenirs", "lembranças", "artesanato"],
+        "resposta": "Feirinhas de artesanato são o bicho! Rendas, bordados, cerâmicas, esculturas em madeira e lembranças da cultura do Cariri. Leva umas pra casa que o pessoal vai adorar!"
+      }
+    ],
+    "rude": [
+      {
+        "perguntas": ["história", "histórias"],
+        "resposta": "Crato fundado em 1764. Cidade Sorriso do Cariri. Cultura, educação e tradições religiosas. Ponto final."
+      },
+      {
+        "perguntas": ["pontos turísticos", "onde ir", "onde visitar", "locais para visita", "visita", "visitar"],
+        "resposta": "Igreja do Patrocínio, Parque Pedro Felício Cavalcanti, Jardim Botânico, Museu de Paleontologia, Crato Antigo e Chapada do Araripe. Vai logo."
+      },
+      {
+        "perguntas": ["festas", "eventos", "festa", "evento", "costumes"],
+        "resposta": "Festa de Nossa Senhora da Penha, quadrilhas juninas, Romaria do Crato. Quer festa? Tem."
+      },
+      {
+        "perguntas": ["como chegar", "aeroporto", "estradas", "rodoviária"],
+        "resposta": "Crato tá a 20 km de Juazeiro. Aeroporto de Juazeiro ou BR-116/CE-292. Ônibus/van, simples."
+      },
+      {
+        "perguntas": ["gastronomia", "comida", "o que comer", "pratos típicos"],
+        "resposta": "Baião de dois, carne de sol, panelada, galinha caipira. Festa junina? Pamonha, canjica e bolo de milho. Come ou morre de fome."
+      },
+      {
+        "perguntas": ["compras", "souvenirs", "lembranças", "artesanato"],
+        "resposta": "Rendas, bordados, cerâmica, esculturas de madeira. Leva pra casa e para de frescura."
+      }
+    ]
+  }
+}
+
+
