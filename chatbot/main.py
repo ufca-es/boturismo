@@ -1,5 +1,6 @@
 from loader import ResponseLoader
 from bot import ChatBot
+from functions import inicializar_bot_cidade, inicializar_bot_personalididade
 import os
 
 city = ""
@@ -15,15 +16,8 @@ def main():
     bot = ChatBot(responses)
     
     print("Bot iniciado! Digite 'sair' para encerrar.")
-    print(f"Bot: Escolha essas opções: {', '.join(responses.keys())}")
-    user_input = input("Você: ")
-    city = user_input.strip().lower()
-
-    personalities = list(responses[city].keys())
-    print(f"Bot: Escolha essas opções de interação: ", ', '.join(personalities))
-    user_input = input("Você: ")
-    personality = user_input.strip().lower()
-    print(f"Bot ({personality}): Olá! Como posso ajudar você com informações sobre {city.title()}?")
+    city = inicializar_bot_cidade(responses)
+    personality = inicializar_bot_personalididade(responses, city)
 
     while True:
         user_input = input("Você: ")
@@ -32,6 +26,14 @@ def main():
             break
         response = None
 
+        if user_input.lower().strip() == "personalidade":
+            personality = inicializar_bot_personalididade(responses, city)
+            continue
+        
+        elif user_input.lower().strip() == "cidade":
+            city = inicializar_bot_cidade(responses, personality)
+            continue
+
         for item in responses[city][personality]:
             if any(q in user_input.lower() for q in item["perguntas"]):
                 response = item["resposta"]
@@ -39,6 +41,9 @@ def main():
 
         if response:
             print(f"Bot ({personality}): {response}")
+        else:
+            print(f"Não há essa resposta no nosso banco!")
+
         
 if __name__ == "__main__":
     main()
