@@ -21,3 +21,11 @@ def inicializar_bot_personalididade(responses, city):
         personality = user_input.strip().lower()
     print(f"Bot ({personality}): Olá! Como posso ajudar você com informações sobre {city.title()}?")
     return personality
+
+    # Armazenamento do histórico de conversas
+def armazenar_historico(user_input, bot_response, history_file):
+    with open(history_file, "a", encoding="utf-8") as f:
+        f.write(f"Você: {user_input}\n")
+        f.write(f"Bot: {bot_response}\n")
+        
+    # Função para exibir o histórico de conversas

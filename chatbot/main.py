@@ -1,6 +1,6 @@
 from loader import ResponseLoader
 from bot import ChatBot
-from functions import inicializar_bot_cidade, inicializar_bot_personalididade
+from functions import inicializar_bot_cidade, inicializar_bot_personalididade, armazenar_historico
 import os
 
 city = ""
@@ -9,7 +9,13 @@ personalities = ""
 def main():
     base_path = os.path.dirname(__file__)
     file_path = os.path.join(base_path, "data/responses.json")
-
+    
+    pasta_data = os.path.join(base_path, "data")
+    arquivos = os.listdir(pasta_data)
+    numero = len([a for a in arquivos if a.startswith("chat_history")]) + 1
+    nome_arquivo = f"chat_history_{numero}.txt"
+    history_file = os.path.join(pasta_data, nome_arquivo)
+    
     loader = ResponseLoader(file_path)
     responses = loader.load_responses()
     
@@ -39,10 +45,13 @@ def main():
                 response = item["resposta"]
                 break
 
+        armazenar_historico(user_input, response, history_file)
+        
         if response:
             print(f"Bot ({personality}): {response}")
         else:
             print(f"Não há essa resposta no nosso banco!")
+            
 
         
 if __name__ == "__main__":
