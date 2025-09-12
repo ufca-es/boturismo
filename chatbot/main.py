@@ -5,7 +5,8 @@ from functions import (
     inicializar_bot_personalididade,
     armazenar_historico,
     ultimas_interacoes,
-    salvar_resposta_nova
+    salvar_resposta_nova,
+    gerar_relatorio
 )
 import os
 
@@ -70,6 +71,11 @@ def main():
                 print("🤖 Aprendi uma resposta nova!")
             else:
                 print("Beleza, não aprendi nada dessa vez. 😉")
+
+        if user_input.lower().strip() == "relatorio":
+            relatorio_file = os.path.join(pasta_usuario, "relatorio_interacoes.txt")
+            gerar_relatorio(history_file, relatorio_file)
+            continue
 
 if __name__ == "__main__":
     main()

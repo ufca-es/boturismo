@@ -6,12 +6,6 @@
           "onde fica o crato?"
         ],
         "resposta": "o crato fica no Ceara"
-      },
-      {
-        "perguntas": [
-          "onde fica o crato?"
-        ],
-        "resposta": "o crato fica no Ceará"
       }
     ],
     "rude": [
@@ -30,22 +24,6 @@
           "onde fica a cidade de barbalha?"
         ],
         "resposta": "a cidade de Barbalha fica no estado do Ceará"
-      },
-      {
-        "perguntas": [
-          "/usr/bin/python3 /home/diogo/documentos/códigos/boturismo/chatbot/main.py"
-        ],
-        "resposta": "sair"
-      }
-    ]
-  },
-  "juazeiro do norte": {
-    "formal": [
-      {
-        "perguntas": [
-          "/usr/bin/python3 /home/diogo/documentos/códigos/boturismo/chatbot/loader.py"
-        ],
-        "resposta": "/usr/bin/python3 /home/diogo/Documentos/Códigos/boturismo/chatbot/main.py"
       }
     ]
   }

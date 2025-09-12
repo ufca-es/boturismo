@@ -23,10 +23,10 @@ def inicializar_bot_personalididade(responses, city):
     return personality
 
     # Armazenamento do histórico de conversas
-def armazenar_historico(user_input, bot_response, history_file, personality):
+def armazenar_historico(pergunta, resposta, history_file, personalidade):
     with open(history_file, "a", encoding="utf-8") as f:
-        f.write(f"Você: {user_input}\n")
-        f.write(f"Bot ({personality}): {bot_response}\n")
+        f.write(f"{pergunta.strip()}|{personalidade}\n") 
+        f.write(f"{resposta.strip()}\n")
         
     # Função para exibir o histórico de conversas
 
@@ -82,3 +82,39 @@ def salvar_resposta_nova(cidade, personalidade, pergunta, resposta):
         json.dump(dados, f, indent=2, ensure_ascii=False)
 
     print(f"🤖 Aprendi a responder '{pergunta}' com '{resposta}'!")
+
+from collections import Counter
+
+def gerar_relatorio(history_file, relatorio_file):
+    from collections import Counter
+
+    try:
+        with open(history_file, "r", encoding="utf-8") as f:
+            linhas = [linha.strip() for linha in f.readlines()]
+        if not linhas:
+            with open(relatorio_file, "w", encoding="utf-8") as f:
+                f.write("Nenhuma interação registrada.\n")
+            return
+
+        total = len(linhas) // 2
+
+        perguntas = linhas[::2]  # pega apenas as perguntas
+        contador_perguntas = Counter([p.split("|")[0] for p in perguntas])
+        pergunta_frequente, freq = contador_perguntas.most_common(1)[0]
+
+        personalidades = [p.split("|")[1] for p in perguntas if "|" in p]
+        contador_personalidades = Counter(personalidades)
+
+        with open(relatorio_file, "w", encoding="utf-8") as f:
+            f.write(f"Relatório de interações do chat\n")
+            f.write(f"Total de interações: {total}\n")
+            f.write(f"Pergunta mais frequente: '{pergunta_frequente}' ({freq} vezes)\n\n")
+            f.write("Uso de personalidades:\n")
+            for pers, count in contador_personalidades.items():
+                f.write(f"- {pers}: {count} vezes\n")
+
+        print(f"Relatório gerado em: {relatorio_file}")
+
+    except FileNotFoundError:
+        print("Arquivo de histórico não encontrado.")
+
