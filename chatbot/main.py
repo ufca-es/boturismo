@@ -57,7 +57,7 @@ def main():
         
         if response:
             print(f"Bot ({personality}): {response}")
-            armazenar_historico(user_input, response, history_file)
+            armazenar_historico(user_input, response, history_file, personality)
         else:
             print(f"Bot ({personality}): Não sei responder isso ainda. 🤔")
             nova_resposta = input("Você pode me ensinar a resposta? (ou deixe em branco para pular): ").strip()
