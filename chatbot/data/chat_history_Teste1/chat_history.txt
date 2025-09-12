@@ -1,0 +1,6 @@
+Você: história
+Bot: Barbalha é velha, século XVIII. Conhecida por cana-de-açúcar e tradição religiosa. É isso.
+Você: festas
+Bot: Festa de Santo Antônio com o Pau da Bandeira. Romarias e eventos culturais. Chega cedo ou fica de fora.
+Você: onde fica a cidade de Barbalha?
+Bot: a cidade de Barbalha fica no estado do Ceará

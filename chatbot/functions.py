@@ -45,3 +45,40 @@ def ultimas_interacoes(history_file, n=5):
 
     except FileNotFoundError:
         print("Nenhum histórico encontrado.")
+
+import os
+import json
+
+def salvar_resposta_nova(cidade, personalidade, pergunta, resposta):
+    """
+    Salva a resposta ensinada pelo usuário no arquivo de aprendizado.
+    Cria o arquivo se não existir.
+    """
+    arquivo = "data/aprendizado.json"
+
+    # Cria o arquivo se não existir
+    if not os.path.exists(arquivo):
+        with open(arquivo, "w", encoding="utf-8") as f:
+            json.dump({}, f, indent=2, ensure_ascii=False)
+
+    # Carrega o arquivo
+    with open(arquivo, "r", encoding="utf-8") as f:
+        dados = json.load(f)
+
+    # Garante que cidade e personalidade existam
+    if cidade not in dados:
+        dados[cidade] = {}
+    if personalidade not in dados[cidade]:
+        dados[cidade][personalidade] = []
+
+    # Adiciona a nova pergunta/resposta
+    dados[cidade][personalidade].append({
+        "perguntas": [pergunta.lower()],
+        "resposta": resposta
+    })
+
+    # Salva de volta no JSON
+    with open(arquivo, "w", encoding="utf-8") as f:
+        json.dump(dados, f, indent=2, ensure_ascii=False)
+
+    print(f"🤖 Aprendi a responder '{pergunta}' com '{resposta}'!")

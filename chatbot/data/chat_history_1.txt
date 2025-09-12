@@ -1,0 +1,6 @@
+Você: história
+Bot: Juazeiro do Norte foi fundada em 1911 e cresceu em torno da figura do Padre Cícero Romão Batista, líder religioso e político que atraiu milhares de romeiros. Até hoje, a cidade é um dos maiores centros de fé popular do Brasil.
+Você: cultura
+Bot: None
+Você: a cultura de juazeiro é grande
+Bot: None
