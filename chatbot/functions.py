@@ -29,3 +29,19 @@ def armazenar_historico(user_input, bot_response, history_file):
         f.write(f"Bot: {bot_response}\n")
         
     # Função para exibir o histórico de conversas
+
+def ultimas_interacoes(history_file, n=5):
+    try:
+        with open(history_file, "r", encoding="utf-8") as f:
+            linhas = f.readlines()
+
+        ultimas = linhas[-n:]
+        print("-"*15)
+        print("Últimas interações:")
+        for linha in ultimas:
+            print(linha.strip())
+        print("-"*15)
+        
+
+    except FileNotFoundError:
+        print("Nenhum histórico encontrado.")
