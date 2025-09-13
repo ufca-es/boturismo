@@ -6,7 +6,8 @@ from functions import (
     armazenar_historico,
     ultimas_interacoes,
     salvar_resposta_nova,
-    gerar_relatorio
+    gerar_relatorio,
+    ultimas_interacoes_relatorio
 )
 import os
 
@@ -23,6 +24,8 @@ def main():
     os.makedirs(pasta_usuario, exist_ok=True)
     nome_arquivo = f"chat_history.txt"
     history_file = os.path.join(pasta_usuario, nome_arquivo)
+    nome_relatorio = f"relatorio.txt"
+    relatorio_file = os.path.join(pasta_usuario, nome_relatorio)
     
     loader = ResponseLoader(file_path)
     responses = loader.load_responses()
@@ -59,6 +62,12 @@ def main():
         if response:
             print(f"Bot ({personality}): {response}")
             armazenar_historico(user_input, response, history_file, personality)
+            gerar_relatorio(history_file, relatorio_file)
+       
+        elif user_input.lower().strip() == "relatorio":
+            ultimas_interacoes_relatorio(relatorio_file)
+            continue
+       
         else:
             print(f"Bot ({personality}): Não sei responder isso ainda. 🤔")
             nova_resposta = input("Você pode me ensinar a resposta? (ou deixe em branco para pular): ").strip()
@@ -72,10 +81,6 @@ def main():
             else:
                 print("Beleza, não aprendi nada dessa vez. 😉")
 
-        if user_input.lower().strip() == "relatorio":
-            relatorio_file = os.path.join(pasta_usuario, "relatorio_interacoes.txt")
-            gerar_relatorio(history_file, relatorio_file)
-            continue
 
 if __name__ == "__main__":
     main()

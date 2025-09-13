@@ -25,8 +25,9 @@ def inicializar_bot_personalididade(responses, city):
     # Armazenamento do histórico de conversas
 def armazenar_historico(pergunta, resposta, history_file, personalidade):
     with open(history_file, "a", encoding="utf-8") as f:
-        f.write(f"{pergunta.strip()}|{personalidade}\n") 
+        f.write(f"{pergunta.strip()}|{personalidade}\n")  
         f.write(f"{resposta.strip()}\n")
+
         
     # Função para exibir o histórico de conversas
 
@@ -50,6 +51,7 @@ import os
 import json
 
 def salvar_resposta_nova(cidade, personalidade, pergunta, resposta):
+    from collections import Counter
     """
     Salva a resposta ensinada pelo usuário no arquivo de aprendizado.
     Cria o arquivo se não existir.
@@ -83,7 +85,7 @@ def salvar_resposta_nova(cidade, personalidade, pergunta, resposta):
 
     print(f"🤖 Aprendi a responder '{pergunta}' com '{resposta}'!")
 
-from collections import Counter
+
 
 def gerar_relatorio(history_file, relatorio_file):
     from collections import Counter
@@ -113,8 +115,19 @@ def gerar_relatorio(history_file, relatorio_file):
             for pers, count in contador_personalidades.items():
                 f.write(f"- {pers}: {count} vezes\n")
 
-        print(f"Relatório gerado em: {relatorio_file}")
-
     except FileNotFoundError:
         print("Arquivo de histórico não encontrado.")
 
+def ultimas_interacoes_relatorio(relatorio_file):
+    try:
+        with open(relatorio_file, "r", encoding="utf-8") as f:
+            linhas = f.readlines()
+            print("-"*15)
+            print("Últimas interações:")
+            for linha in linhas:
+                print(linha.strip())
+            print("-"*15)
+            return linhas
+    except:
+        print("Nenhum relatório encontrado.")
+        return
