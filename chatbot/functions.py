@@ -161,3 +161,21 @@ def ultimas_interacoes_relatorio(relatorio_file):
     except FileNotFoundError:
         return ["Nenhum relatório encontrado.\n"]
 
+def sugerir_perguntas(caminho_arquivo):
+    from collections import Counter
+    cont_perguntas = Counter()
+    
+    #Percorre o arquivo e conta as perguntas (linhas impares)
+    with open(caminho_arquivo, "r", encoding="utf-8") as f:
+        for i, linha in enumerate(f, start=1):
+            if i % 2 != 0:  # linhas impares
+                pergunta = linha.lower().strip()
+                if pergunta:  # ignora linhas em branco
+                    pergunta_chave = pergunta.split("|")[0].strip()
+                    cont_perguntas[pergunta_chave] += 1
+                    
+    # Mostra as 5 perguntas mais comuns  
+    top5 = cont_perguntas.most_common(5)  
+    for pergunta, _ in top5:
+        print(f"Pergunta: '{pergunta}'")
+    return [pergunta for pergunta, _ in top5] #Retorna apenas as perguntas

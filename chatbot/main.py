@@ -7,7 +7,8 @@ from functions import (
     ultimas_interacoes,
     salvar_resposta_nova,
     gerar_relatorio,
-    ultimas_interacoes_relatorio
+    ultimas_interacoes_relatorio,
+    sugerir_perguntas
 )
 import os
 
@@ -27,13 +28,25 @@ def main():
     nome_relatorio = f"relatorio.txt"
     relatorio_file = os.path.join(pasta_usuario, nome_relatorio)
     
+    
     loader = ResponseLoader(file_path)
     responses = loader.load_responses()
     
     bot = ChatBot(responses)
+    
     if history_file:
         print(ultimas_interacoes(history_file))
     print("Bot iniciado! Digite 'sair' para encerrar.")
+    
+    print("Sugestões de perguntas baseadas em perguntas frequentes:")
+    for pasta_raiz, pasta_usuario, arquivo_txt in os.walk(pasta_data):# Caminha por todas as pastas e subpastas dentro de data
+        for file in arquivo_txt:
+            caminho_completo = os.path.join(pasta_raiz, file)
+            '''
+            Primeiro verifica se é um arquivo e se é um.txt e comeca com chat_history, então sugere perguntas (Função)
+            '''
+            if file.startswith("chat_history") and file.endswith(".txt"):
+                sugerir_perguntas(caminho_completo)
     
     city = inicializar_bot_cidade(responses)
     personality = inicializar_bot_personalididade(responses, city)
@@ -84,4 +97,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
