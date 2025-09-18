@@ -4,9 +4,9 @@ import os
 import random
 import json
 import time
-from functions import gerar_relatorio # Importe a nova função
+from functions import gerar_relatorio, sugerir_perguntas # Importe a nova função
 
-# --- FUNÇÕES AUXILIARES (do arquivo functions.py) ---
+# --- FUNÇÕES AUXILIARES ---
 def carregar_respostas_base(file_path):
     try:
         with open(file_path, "r", encoding="utf-8") as f:
@@ -75,26 +75,44 @@ with st.sidebar:
     
     st.divider()
     
-    # --- LÓGICA DO RELATÓRIO ---
+    # --- BOTÕES DE AÇÃO ---
     if st.button("📊 Gerar Relatório"):
         if os.path.exists(st.session_state.history_file):
-            # Chama a função que agora RETORNA o texto do relatório
             relatorio_texto = gerar_relatorio(st.session_state.history_file)
-            # Salva o texto no estado da sessão para ser exibido na tela principal
             st.session_state.relatorio_gerado = relatorio_texto
         else:
             st.warning("Nenhum histórico encontrado para este usuário.")
+
+    # --- NOVO BOTÃO DE SUGESTÕES ---
+    if st.button("💡 Sugerir Perguntas"):
+        if os.path.exists(st.session_state.history_file):
+            sugestoes = sugerir_perguntas(st.session_state.history_file)
+            st.session_state.sugestoes_geradas = sugestoes
+        else:
+            st.warning("Nenhum histórico para gerar sugestões.")
+
 
 # --- TELA PRINCIPAL DO CHAT ---
 st.title(f"🐦Boturismo: {st.session_state.cidade.title() if st.session_state.cidade else ''}")
 st.markdown(f"Interagindo com a personalidade: **{st.session_state.personalidade}**")
 
-# --- Exibição do Relatório (se existir no estado da sessão) ---
+# --- Exibição do Relatório ---
 if "relatorio_gerado" in st.session_state:
     st.subheader("📈 Relatório de Interações")
     st.text_area("Relatório:", st.session_state.relatorio_gerado, height=250)
-    # Limpa o relatório do estado da sessão para que ele não apareça novamente
     del st.session_state.relatorio_gerado
+
+# --- NOVA EXIBIÇÃO DE SUGESTÕES ---
+if "sugestoes_geradas" in st.session_state:
+    st.subheader("💡 Tente perguntar:")
+    sugestoes = st.session_state.sugestoes_geradas
+    if sugestoes:
+        for pergunta in sugestoes:
+            st.info(f"`{pergunta.capitalize()}?`")
+    else:
+        st.info("Ainda não há perguntas frequentes para sugerir.")
+    del st.session_state.sugestoes_geradas
+
 
 # Exibe o histórico do chat
 for message in st.session_state.messages:
@@ -127,4 +145,3 @@ if prompt := st.chat_input(f"Pergunte sobre {st.session_state.cidade}..."):
         st.session_state.personalidade, 
         st.session_state.cidade
     )
-

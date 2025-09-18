@@ -161,21 +161,30 @@ def ultimas_interacoes_relatorio(relatorio_file):
     except FileNotFoundError:
         return ["Nenhum relatório encontrado.\n"]
 
+# functions.py
+
 def sugerir_perguntas(caminho_arquivo):
+    """
+    Lê o histórico de um usuário, encontra as 5 perguntas mais frequentes
+    e retorna uma lista com elas.
+    """
     from collections import Counter
     cont_perguntas = Counter()
     
-    #Percorre o arquivo e conta as perguntas (linhas impares)
-    with open(caminho_arquivo, "r", encoding="utf-8") as f:
-        for i, linha in enumerate(f, start=1):
-            if i % 2 != 0:  # linhas impares
-                pergunta = linha.lower().strip()
-                if pergunta:  # ignora linhas em branco
-                    pergunta_chave = pergunta.split("|")[0].strip()
-                    cont_perguntas[pergunta_chave] += 1
-                    
-    # Mostra as 5 perguntas mais comuns  
-    top5 = cont_perguntas.most_common(5)  
-    for pergunta, _ in top5:
-        print(f"Pergunta: '{pergunta}'")
-    return [pergunta for pergunta, _ in top5] #Retorna apenas as perguntas
+    try:
+        # Percorre o arquivo e conta as perguntas (linhas ímpares)
+        with open(caminho_arquivo, "r", encoding="utf-8") as f:
+            for i, linha in enumerate(f, start=1):
+                if i % 2 != 0:  # Apenas linhas ímpares (perguntas)
+                    pergunta = linha.lower().strip()
+                    if pergunta:  # Ignora linhas em branco
+                        pergunta_chave = pergunta.split("|")[0].strip()
+                        cont_perguntas[pergunta_chave] += 1
+                        
+        # Pega as 5 perguntas mais comuns  
+        top5 = cont_perguntas.most_common(5)
+        
+        # Retorna apenas os textos das perguntas
+        return [pergunta for pergunta, _ in top5]
+    except FileNotFoundError:
+        return [] # Retorna uma lista vazia se o histórico não existir
