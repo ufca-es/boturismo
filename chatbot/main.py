@@ -11,6 +11,7 @@ from functions import (
     sugerir_perguntas
 )
 import os
+import random
 
 city = ""
 personalities = ""
@@ -69,7 +70,7 @@ def main():
         # procura resposta
         for item in responses[city][personality]:
             if any(q in user_input.lower() for q in item["perguntas"]):
-                response = item["resposta"]
+                response = random.choice(item["resposta"])
                 break
         
         if response:
