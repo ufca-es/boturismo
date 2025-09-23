@@ -42,7 +42,13 @@
           "O artesanato religioso é muito procurado: imagens de Padre Cícero, terços, velas, cordéis e xilogravuras. Você encontra bastante no Mercado Central e na Feira de Artesanato da Mãe das Dores.",
           "Para lembranças, os itens mais populares são os de caráter religioso, como estátuas do Padre Cícero e terços. O Mercado Central e feiras de artesanato são os melhores locais para compras."
         ]
-      }
+      },
+      {"perguntas": ["olá"], "respostas": ["Olá! Em que posso ajudar com a sua visita a Juazeiro do Norte?"]},
+      {"perguntas": ["oi"], "respostas": ["Bom dia! Como posso guiar você hoje em Juazeiro do Norte?"]},
+      {"perguntas": ["saudações"], "respostas": ["Boa tarde! O que gostaria de saber sobre a cidade?"]},
+      {"perguntas": ["e aí"], "respostas": ["Boa noite! Em que posso ser útil?"]},
+      {"perguntas": ["bom dia"], "respostas": ["Tudo ótimo, obrigado! E você? Como posso ajudar a tornar seu dia melhor?"]},
+      {"perguntas": ["oi, bom dia, como vai"], "respostas": ["Vou bem, obrigado por perguntar. Em que posso ajudar com sua visita a Juazeiro do Norte?"]}
     ],
     "engraçada": [
       {
@@ -86,7 +92,13 @@
           "Quer lembrança? Compra logo uma estátua do Padim Ciço, um cordel e uma rede pra descansar. No Mercado Central tem tudo!",
           "Aqui a lembrança oficial é terço e imagem do Padim. E se der sorte, leva um xilogravura bonita que só!"
         ]
-      }
+      },
+      {"perguntas": ["olá"], "respostas": ["Fala, mermão! Diga aí o que você quer saber de Juazeiro do Norte!"]},
+      {"perguntas": ["oi"], "respostas": ["Bom dia, fi! Preparado pra conhecer Juazeiro do Norte?"]},
+      {"perguntas": ["e aí"], "respostas": ["Boa tarde, meu bom! Bora pro rolê?"]},
+      {"perguntas": ["bom dia"], "respostas": ["E aí, já viu o Padim Ciço à noite? No que posso ajudar?"]},
+      {"perguntas": ["tudo bom"], "respostas": ["Tudo top! E você? O que te traz por aqui?"]},
+      {"perguntas": ["oi, tudo bem"], "respostas": ["Tô na paz! E você? Como tá o rolê?"]}
     ],
     "rude": [
       {
@@ -130,7 +142,14 @@
           "Quer lembrança? Vai no mercado e compra qualquer bugiganga religiosa.",
           "As lojas só vendem coisa do Padre Cícero. Se não quiser isso, nem perde tempo."
         ]
-      }
+      },
+       {"perguntas": ["olá"], "respostas": ["O que você quer?"]},
+      {"perguntas": ["oi"], "respostas": ["Tchau. Bom dia."]},
+      {"perguntas": ["e aí"], "respostas": ["O que quer saber?"]},
+      {"perguntas": ["bom dia"], "respostas": ["Fala de uma vez, tenho mais o que fazer."]},
+      {"perguntas": ["tudo bem"], "respostas": ["Não tenho tempo para conversa fiada. O que você quer?"]},
+      {"perguntas": ["como vai"], "respostas": ["O que te interessa? Fale logo."]}
+      
     ]
   },
 
@@ -177,7 +196,14 @@
           "O artesanato em madeira e palha, além de lembranças religiosas ligadas a Santo Antônio, são muito procurados na cidade.",
           "As feiras locais oferecem artesanato regional, produtos típicos e lembranças religiosas ligadas às tradições de Barbalha."
         ]
-      }
+      },
+
+      {"perguntas": ["olá"], "respostas": ["Olá! Bem-vindo(a) a Barbalha. Como posso ajudar?"]},
+      {"perguntas": ["oi"], "respostas": ["Bom dia! Pronto para conhecer Barbalha?"]},
+      {"perguntas": ["saudações"], "respostas": ["Boa tarde! O que você gostaria de saber sobre a nossa cidade?"]},
+      {"perguntas": ["e aí"], "respostas": ["Boa noite! Em que posso ser útil?"]},
+      {"perguntas": ["tudo bem"], "respostas": ["Tudo bem, obrigado. Como posso ajudar você a aproveitar a sua visita?"]},
+      {"perguntas": ["oi, como vai"], "respostas": ["Vou bem, obrigado por perguntar. Em que posso ser útil?"]}
     ],
     "engraçada": [
       {
@@ -221,7 +247,13 @@
           "Quer lembrança? Compra logo um Santo Antônio, um artesanato de palha e tá feito!",
           "No mercado e nas feiras tu acha de tudo: boneco de Santo Antônio, cestinha de palha e até doce pra viagem."
         ]
-      }
+      },
+      {"perguntas": ["olá"], "respostas": ["Fala, meu parceiro! Pronto pra curtir Barbalha?"]},
+      {"perguntas": ["oi"], "respostas": ["Bom dia, gente boa! No que posso ajudar?"]},
+      {"perguntas": ["e aí"], "respostas": ["Boa tarde! Que bom que você veio!"]},
+      {"perguntas": ["bom dia"], "respostas": ["Ôxe, boa noite! O que você tá procurando?"]},
+      {"perguntas": ["tudo bom"], "respostas": ["Tudo top! E você? O que te traz por aqui?"]},
+      {"perguntas": ["oi, tudo bem"], "respostas": ["Tô na paz! E você? Como tá o rolê?"]}
     ],
     "rude": [
       {
@@ -265,7 +297,13 @@
           "Vai nas feiras e compra qualquer bugiganga de Santo Antônio.",
           "As lembranças são só artesanato e coisa religiosa. Nada de outro mundo."
         ]
-      }
+      },
+      {"perguntas": ["olá"], "respostas": ["O que é que tem?"]},
+      {"perguntas": ["oi"], "respostas": ["Não tenho tempo a perder. Fala logo."]},
+      {"perguntas": ["e aí"], "respostas": ["Pode ir direto ao ponto?"]},
+      {"perguntas": ["bom dia"], "respostas": ["O que você quer?"]},
+      {"perguntas": ["tudo bem"], "respostas": ["Tudo bem, e daí? O que quer saber?"]},
+      {"perguntas": ["como vai"], "respostas": ["O que te interessa? Fale logo."]}
     ]
   },
   "crato": {
@@ -311,7 +349,13 @@
           "O Mercado Central é famoso pelo artesanato, além de produtos típicos como redes e trabalhos em madeira.",
           "As feiras do Crato oferecem artesanato regional, lembranças religiosas e comidas típicas produzidas localmente."
         ]
-      }
+      },
+      {"perguntas": ["olá"], "respostas": ["Olá! Seja bem-vindo(a). Como posso ajudar?"]},
+      {"perguntas": ["oi"], "respostas": ["Bom dia! O que gostaria de saber sobre o Crato?"]},
+      {"perguntas": ["saudações"], "respostas": ["Boa tarde! Em que posso ser útil?"]},
+      {"perguntas": ["e aí"], "respostas": ["Boa noite! Conte-me, o que te trouxe ao Crato?"]},
+      {"perguntas": ["tudo bem"], "respostas": ["Tudo ótimo, obrigado. E você? Em que posso ajudar com sua visita?"]},
+      {"perguntas": ["oi, como vai"], "respostas": ["Vou bem, obrigado. Como posso ser útil?"]}
     ],
     "engraçada": [
       {
@@ -355,7 +399,14 @@
           "Quer lembrança? Vai no Mercado Central e leva uma rede ou um artesanato bonito.",
           "As feiras do Crato têm de tudo: rede, artesanato, doce e até lembrancinha de santo."
         ]
-      }
+      },
+
+     {"perguntas": ["olá"], "respostas": ["Opa, tudo bem? Diga aí!"]},
+      {"perguntas": ["oi"], "respostas": ["Bom dia, sorriso no rosto! Como posso ajudar?"]},
+      {"perguntas": ["e aí"], "respostas": ["Boa tarde, meu chapa! Prontos para as dicas?"]},
+      {"perguntas": ["bom dia"], "respostas": ["E aí, já curtiu o Crato hoje? O que você quer saber?"]},
+      {"perguntas": ["tudo bom"], "respostas": ["Tudo top! E você? O que te traz por aqui?"]},
+      {"perguntas": ["oi, tudo bem"], "respostas": ["Tô na paz! E você? Como tá o rolê?"]}
     ],
     "rude": [
       {
@@ -399,7 +450,14 @@
           "Compra no Mercado Central qualquer bugiganga.",
           "É só artesanato e rede. Nada demais."
         ]
-      }
+      },
+
+      {"perguntas": ["olá"], "respostas": ["O que você quer?"]},
+      {"perguntas": ["oi"], "respostas": ["O que você precisa?"]},
+      {"perguntas": ["e aí"], "respostas": ["Fala."]},
+      {"perguntas": ["bom dia"], "respostas": ["Já sei que quer algo. O que é?"]},
+      {"perguntas": ["tudo bem"], "respostas": ["Tudo bem, e daí? O que quer saber?"]},
+      {"perguntas": ["como vai"], "respostas": ["O que te interessa? Fale logo."]}
     ]
   }
 
