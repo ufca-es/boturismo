@@ -4,7 +4,7 @@ import os
 import random
 import json
 import time
-from functions import gerar_relatorio, sugerir_perguntas # Importe a nova função
+from functions import gerar_relatorio, sugerir_perguntas, carregar_aprendizado, salvar_resposta_nova
 
 # --- FUNÇÕES AUXILIARES ---
 def carregar_respostas_base(file_path):
@@ -41,8 +41,11 @@ os.makedirs(pasta_data, exist_ok=True)
 file_path_base = os.path.join(pasta_data, "responses.json")
 
 # --- CARREGAMENTO DE DADOS ---
-todas_respostas = carregar_respostas_base(file_path_base)
-if not todas_respostas:
+# Carrega as respostas base apenas uma vez para otimizar
+if 'todas_respostas' not in st.session_state:
+    st.session_state.todas_respostas = carregar_respostas_base(file_path_base)
+
+if not st.session_state.todas_respostas:
     st.stop()
 
 # --- INICIALIZAÇÃO DO ESTADO DA SESSÃO ---
@@ -66,11 +69,11 @@ with st.sidebar:
         os.makedirs(pasta_usuario, exist_ok=True)
         st.session_state.history_file = os.path.join(pasta_usuario, "chat_history.txt")
 
-    cidades_disponiveis = list(todas_respostas.keys())
+    cidades_disponiveis = list(st.session_state.todas_respostas.keys())
     st.session_state.cidade = st.selectbox("Escolha a cidade:", cidades_disponiveis)
 
     if st.session_state.cidade:
-        personalidades_disponiveis = list(todas_respostas[st.session_state.cidade].keys())
+        personalidades_disponiveis = list(st.session_state.todas_respostas[st.session_state.cidade].keys())
         st.session_state.personalidade = st.selectbox("Escolha a personalidade:", personalidades_disponiveis)
     
     st.divider()
@@ -83,7 +86,6 @@ with st.sidebar:
         else:
             st.warning("Nenhum histórico encontrado para este usuário.")
 
-    # --- NOVO BOTÃO DE SUGESTÕES ---
     if st.button("💡 Sugerir Perguntas"):
         if os.path.exists(st.session_state.history_file):
             sugestoes = sugerir_perguntas(st.session_state.history_file)
@@ -91,6 +93,25 @@ with st.sidebar:
         else:
             st.warning("Nenhum histórico para gerar sugestões.")
 
+    st.divider()
+    
+    # --- MECANISMO DE APRENDIZADO ---
+    with st.form("form_aprender"):
+        st.subheader("🧠 Ensinar o Bot")
+        nova_pergunta = st.text_input("Digite a pergunta:")
+        nova_resposta = st.text_area("Digite a resposta que o bot deve dar:")
+        submitted = st.form_submit_button("Salvar Aprendizado")
+        if submitted:
+            if nova_pergunta and nova_resposta and st.session_state.cidade and st.session_state.personalidade:
+                salvar_resposta_nova(
+                    st.session_state.cidade,
+                    st.session_state.personalidade,
+                    nova_pergunta,
+                    nova_resposta
+                )
+                st.success("Novo conhecimento salvo!")
+            else:
+                st.warning("Preencha todos os campos para ensinar o bot.")
 
 # --- TELA PRINCIPAL DO CHAT ---
 st.title(f"🐦Boturismo: {st.session_state.cidade.title() if st.session_state.cidade else ''}")
@@ -113,7 +134,6 @@ if "sugestoes_geradas" in st.session_state:
         st.info("Ainda não há perguntas frequentes para sugerir.")
     del st.session_state.sugestoes_geradas
 
-
 # Exibe o histórico do chat
 for message in st.session_state.messages:
     with st.chat_message(message["role"]):
@@ -129,7 +149,13 @@ if prompt := st.chat_input(f"Pergunte sobre {st.session_state.cidade}..."):
     with st.chat_message("assistant"):
         with st.spinner("Pensando..."):
             time.sleep(0.5)
-            respostas_disponiveis = todas_respostas[st.session_state.cidade][st.session_state.personalidade]
+            
+            # Combina respostas base com as aprendidas
+            respostas_base = st.session_state.todas_respostas[st.session_state.cidade][st.session_state.personalidade]
+            aprendizado = carregar_aprendizado()
+            respostas_aprendizado = aprendizado.get(st.session_state.cidade, {}).get(st.session_state.personalidade, [])
+            respostas_disponiveis = respostas_base + respostas_aprendizado
+
             resposta_bot = obter_resposta_bot(prompt, respostas_disponiveis)
 
             if not resposta_bot:

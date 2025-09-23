@@ -5,7 +5,7 @@
         "perguntas": [
           "onde fica o crato?"
         ],
-        "resposta": "o crato fica no Ceara"
+        "respostas": "o crato fica no Ceara"
       }
     ],
     "rude": [
@@ -13,7 +13,7 @@
         "perguntas": [
           "onde fica o crato?"
         ],
-        "resposta": "o crato fica no ceará e ponto"
+        "respostas": "o crato fica no ceará e ponto"
       }
     ]
   },
@@ -23,7 +23,7 @@
         "perguntas": [
           "onde fica a cidade de barbalha?"
         ],
-        "resposta": "a cidade de Barbalha fica no estado do Ceará"
+        "respostas": "a cidade de Barbalha fica no estado do Ceará"
       }
     ]
   }

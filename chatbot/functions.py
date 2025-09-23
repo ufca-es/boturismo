@@ -66,7 +66,11 @@ def salvar_resposta_nova(cidade, personalidade, pergunta, resposta):
     """
     Salva a resposta ensinada pelo usuário no arquivo de aprendizado.
     """
+
     arquivo = "data/aprendizado.json"
+    pasta_data = os.path.dirname(arquivo)
+    if not os.path.exists(pasta_data):
+        os.makedirs(pasta_data, exist_ok=True)
     if not os.path.exists(arquivo):
         with open(arquivo, "w", encoding="utf-8") as f:
             json.dump({}, f, indent=2, ensure_ascii=False)
@@ -81,7 +85,7 @@ def salvar_resposta_nova(cidade, personalidade, pergunta, resposta):
 
     dados[cidade][personalidade].append({
         "perguntas": [pergunta.lower()],
-        "resposta": resposta
+        "respostas": [resposta]
     })
 
     with open(arquivo, "w", encoding="utf-8") as f:
