@@ -2,42 +2,42 @@
   "juazeiro do norte": {
     "formal": [
       {
-        "perguntas": ["história", "histórias"],
+        "perguntas": ["história", "histórias", "origem", "fundação", "quando surgiu", "criação"],
         "respostas": [
           "Juazeiro do Norte foi fundada em 1911 e cresceu em torno da figura do Padre Cícero Romão Batista, líder religioso e político que atraiu milhares de romeiros. Até hoje, a cidade é um dos maiores centros de fé popular do Brasil.",
           "A história de Juazeiro do Norte, estabelecida em 1911, está intrinsecamente ligada ao Padre Cícero, cuja liderança espiritual e política transformou a cidade em um dos principais polos de religiosidade do país."
         ]
       },
       {
-        "perguntas": ["pontos turísticos", "onde ir", "onde visitar", "locais para visita", "visita", "visitar"],
+        "perguntas": ["pontos turísticos", "onde ir", "onde visitar", "locais para visita", "visita", "visitar", "atrativos", "turismo"],
         "respostas": [
           "Os principais pontos turísticos são a Colina do Horto, com a estátua do Padre Cícero; a Igreja Matriz e a Basílica de São Francisco, que são patrimônios religiosos; e o Mercado Central, para artesanato e gastronomia local.",
           "Para turismo, recomenda-se visitar a Colina do Horto para a vista panorâmica e a estátua do Padre Cícero, além das igrejas históricas e do Mercado Central, que oferece uma imersão na cultura caririense."
         ]
       },
       {
-        "perguntas": ["festas", "eventos", "festa", "evento", "costumes"],
+        "perguntas": ["festas", "eventos", "festa", "evento", "costumes", "tradições", "romarias", "festividades"],
         "respostas": [
           "As maiores festas são as romarias de Padre Cícero (24 de março, 20 de julho e 2 de novembro) e a Festa de Nossa Senhora das Candeias, em fevereiro, que reúne milhares de romeiros.",
           "Os eventos de maior destaque na cidade são as tradicionais romarias em homenagem ao Padre Cícero e a Festa de Nossa Senhora das Candeias, que atraem um número expressivo de fiéis todos os anos."
         ]
       },
       {
-        "perguntas": ["como chegar", "aeroporto", "estradas", "rodoviária"],
+        "perguntas": ["como chegar", "aeroporto", "estradas", "rodoviária", "transporte", "viagem", "trajeto"],
         "respostas": [
           "Você pode chegar de avião, pelo Aeroporto Orlando Bezerra (a 6 km do centro), ou de ônibus pela rodoviária. A cidade também é acessível pela BR-116 e CE-060 para quem vem de carro.",
           "O acesso a Juazeiro do Norte pode ser aéreo, através do Aeroporto Orlando Bezerra, ou terrestre, utilizando a rodoviária local ou as rodovias BR-116 e CE-060."
         ]
       },
       {
-        "perguntas": ["gastronomia", "comida", "o que comer", "pratos típicos"],
+        "perguntas": ["gastronomia", "comida", "o que comer", "pratos típicos", "culinária", "alimentos", "restaurantes"],
         "respostas": [
           "Os pratos típicos são carne de sol com baião de dois, panelada, tapioca e doces regionais. O Mercado Central é um ótimo lugar para provar comidas locais.",
           "A culinária local se destaca com pratos como a carne de sol com baião de dois e a panelada. Você pode encontrar essas e outras especialidades no Mercado Central."
         ]
       },
       {
-        "perguntas": ["compras", "souvenirs", "lembranças", "artesanato"],
+        "perguntas": ["compras", "souvenirs", "lembranças", "artesanato", "presentes", "feiras", "mercado"],
         "respostas": [
           "O artesanato religioso é muito procurado: imagens de Padre Cícero, terços, velas, cordéis e xilogravuras. Você encontra bastante no Mercado Central e na Feira de Artesanato da Mãe das Dores.",
           "Para lembranças, os itens mais populares são os de caráter religioso, como estátuas do Padre Cícero e terços. O Mercado Central e feiras de artesanato são os melhores locais para compras."
@@ -46,223 +46,224 @@
     ],
     "engraçada": [
       {
-        "perguntas": ["história", "histórias"],
+        "perguntas": ["história", "histórias", "origem", "fundação", "quando surgiu", "criação"],
         "respostas": [
           "Ôxe, Juazeiro do Norte é a terra do Padim Ciço, mermão! Fundada em 1911, cresceu com a galera vindo fazer promessa e fé. Até hoje a cidade é tipo a capital da fé, cheia de romeiro e gente boa.",
           "Rapaz, a história daqui é arretada! Juazeiro nasceu em 1911 por causa do nosso Padim Ciço. O povo vinha de longe pra pedir bênção, e a cidade bombou que só vendo!"
         ]
       },
       {
-        "perguntas": ["pontos turísticos", "onde ir", "onde visitar", "locais para visita", "visita", "visitar"],
+        "perguntas": ["pontos turísticos", "onde ir", "onde visitar", "locais para visita", "visita", "visitar", "atrativos", "turismo"],
         "respostas": [
           "Se liga só: vai na Colina do Horto pra ver o Padim Ciço gigante e tirar umas fotos daquelas! Depois passa na Igreja Matriz e Basílica de São Francisco, que são lindas pra danado. E não esquece do Mercado Central, lá é sucesso!",
           "Quer um rolê top? Sobe no Horto pra dar um 'oi' pro Padim Ciço e ver a cidade de cima. Depois, pra encher a barriga e a sacola, o Mercado Central é o lugar!"
         ]
       },
       {
-        "perguntas": ["festas", "eventos", "festa", "evento", "costumes"],
+        "perguntas": ["festas", "eventos", "festa", "evento", "costumes", "tradições", "romarias", "festividades"],
         "respostas": [
-          "As festas são um estouro! Tem as romarias do Padim Ciço (24/03, 20/07 e 02/11) e a Festa de Nossa Senhora das Candeias em fevereiro. É romeiro que não acaba mais, e a vibe é da hora!",
-          "Mermão, aqui o negócio ferve! As romarias do Padim Ciço param a cidade, e a Festa das Candeias é linda de ver. Se prepare para uma multidão animada e cheia de fé."
+          "As festas daqui são de arrepiar! As romarias do Padim Ciço juntam mais gente que show de São João. É fé, promessa e muito forró no meio!",
+          "Quer muvuca? Vem em fevereiro na Festa das Candeias ou nas romarias. É povo rezando, dançando e vendendo cordel tudo junto!"
         ]
       },
       {
-        "perguntas": ["como chegar", "aeroporto", "estradas", "rodoviária"],
+        "perguntas": ["como chegar", "aeroporto", "estradas", "rodoviária", "transporte", "viagem", "trajeto"],
         "respostas": [
-          "Chegar é facim, facim! Pode vir de avião pelo Aeroporto Orlando Bezerra, que fica pertinho do centro, ou pegar ônibus pela rodoviária. De carro, segue a BR-116 ou a CE-060 e tá tudo certo.",
-          "Pra brocar aqui é moleza: se joga no avião até o aeroporto daqui, ou pega um busão. Se tiver de carro, é só botar no GPS e acelerar que não tem erro!"
+          "Pra chegar aqui é fácil: tem aeroporto pertinho, rodoviária cheia de ônibus e estrada que dá direto. Só cuidado que o trânsito é arretado nos dias de festa!",
+          "Vem de avião, de ônibus ou de carro... mas se prepara que nos dias de romaria, o trânsito fica mais parado que jegue cansado."
         ]
       },
       {
-        "perguntas": ["gastronomia", "comida", "o que comer", "pratos típicos"],
+        "perguntas": ["gastronomia", "comida", "o que comer", "pratos típicos", "culinária", "alimentos", "restaurantes"],
         "respostas": [
-          "Rapaz, se prepara! Aqui tem carne de sol com baião de dois que é de lamber os beiço, panelada pra dar sustância e tapioca pra fechar. É comida boa que só!",
-          "Prepare o estômago, porque a comida daqui é boa demais! Baião de dois com carne de sol no capricho, panelada e tapioca. O Mercado Central é parada obrigatória!"
+          "Bora comer! Tem carne de sol com baião de dois, panelada que sustenta qualquer vaqueiro e tapioca daquelas de encher os olhos.",
+          "A comida daqui é boa demais, mermão. Se não provar a panelada, nem diga que veio em Juazeiro!"
         ]
       },
       {
-        "perguntas": ["compras", "souvenirs", "lembranças", "artesanato"],
+        "perguntas": ["compras", "souvenirs", "lembranças", "artesanato", "presentes", "feiras", "mercado"],
         "respostas": [
-          "Se liga nos souvenirs: tem imagem do Padim Ciço, terço, vela, cordel e xilogravura. É sucesso pra levar pra casa e impressionar a galera!",
-          "Pra levar de lembrança, o kit básico é: uma estátua do Padim, uns terços pra benzer e uns cordéis pra ler. A família toda vai adorar!"
+          "Quer lembrança? Compra logo uma estátua do Padim Ciço, um cordel e uma rede pra descansar. No Mercado Central tem tudo!",
+          "Aqui a lembrança oficial é terço e imagem do Padim. E se der sorte, leva um xilogravura bonita que só!"
         ]
       }
     ],
     "rude": [
       {
-        "perguntas": ["história", "histórias"],
+        "perguntas": ["história", "histórias", "origem", "fundação", "quando surgiu", "criação"],
         "respostas": [
-          "Juazeiro do Norte nasceu em 1911 por causa do Padre Cícero. Ponto. Cresceu com romeiros e fé popular. É isso.",
-          "A história é curta: 1911, Padre Cícero, romeiros. Fim da conversa."
+          "História? Juazeiro é de 1911, pronto. O resto é enrolação com Padre Cícero.",
+          "Foi fundada em 1911, e o povo só lembra do Padre Cícero. Quer detalhe, vai estudar."
         ]
       },
       {
-        "perguntas": ["pontos turísticos", "onde ir", "onde visitar", "locais para visita", "visita", "visitar"],
+        "perguntas": ["pontos turísticos", "onde ir", "onde visitar", "locais para visita", "visita", "visitar", "atrativos", "turismo"],
         "respostas": [
-          "Colina do Horto e estátua do Padre Cícero, Igreja Matriz e Basílica de São Francisco, Mercado Central. Vai lá e acabou.",
-          "Os lugares são óbvios: Horto, igrejas e o mercado. Não tem mais o que ver, pode ir."
+          "Ponto turístico aqui é a estátua do Padre Cícero e pronto. Quer mais o quê?",
+          "Se quiser passeio, vai pro Horto e olha a vista. O resto é igreja e mercado, nada demais."
         ]
       },
       {
-        "perguntas": ["festas", "eventos", "festa", "evento", "costumes"],
+        "perguntas": ["festas", "eventos", "festa", "evento", "costumes", "tradições", "romarias", "festividades"],
         "respostas": [
-          "Romarias do Padre Cícero (24/03, 20/07, 02/11) e Festa de Nossa Senhora das Candeias. Chega cedo ou vai perder a muvuca.",
-          "As festas são as romarias e a das Candeias. É sempre lotado. Se não gosta de gente, nem venha."
+          "Festa aqui é só romaria cheia de gente e poeira. Se gosta de muvuca, vai lá. Senão, fica em casa.",
+          "Tem romaria quase todo mês, mas é só bagunça misturada com reza. Nada demais."
         ]
       },
       {
-        "perguntas": ["como chegar", "aeroporto", "estradas", "rodoviária"],
+        "perguntas": ["como chegar", "aeroporto", "estradas", "rodoviária", "transporte", "viagem", "trajeto"],
         "respostas": [
-          "Aeroporto Orlando Bezerra, ônibus na rodoviária ou de carro pela BR-116/CE-060. Simples.",
-          "Use um mapa. Tem aeroporto, rodoviária e estrada. Não é difícil."
+          "Chegar é fácil: tem aeroporto, ônibus e estrada. O problema é sair do engarrafamento nas festas.",
+          "Vem de avião, ônibus ou carro. Mas já sabe: vai sofrer no trânsito, principalmente em romaria."
         ]
       },
       {
-        "perguntas": ["gastronomia", "comida", "o que comer", "pratos típicos"],
+        "perguntas": ["gastronomia", "comida", "o que comer", "pratos típicos", "culinária", "alimentos", "restaurantes"],
         "respostas": [
-          "Carne de sol com baião de dois, panelada, tapioca. Vá no Mercado Central se tiver fome.",
-          "Comida típica: carne de sol, panelada. Tem em todo canto, só procurar."
+          "Comida aqui é carne de sol, baião e panelada. Se não gosta, azar o seu.",
+          "O que tem pra comer? Mesma coisa de qualquer canto do Ceará: baião de dois e tapioca."
         ]
       },
       {
-        "perguntas": ["compras", "souvenirs", "lembranças", "artesanato"],
+        "perguntas": ["compras", "souvenirs", "lembranças", "artesanato", "presentes", "feiras", "mercado"],
         "respostas": [
-          "Imagens do Padre Cícero, terços, velas, cordéis, xilogravuras. Pega e pronto.",
-          "O artesanato é religioso. Imagem de santo, terço, vela. Compra qualquer um e vamos embora."
+          "Quer lembrança? Vai no mercado e compra qualquer bugiganga religiosa.",
+          "As lojas só vendem coisa do Padre Cícero. Se não quiser isso, nem perde tempo."
         ]
       }
     ]
   },
+
   "barbalha": {
     "formal": [
       {
-        "perguntas": ["história", "histórias"],
+        "perguntas": ["história", "histórias", "origem", "fundação", "quando surgiu", "criação"],
         "respostas": [
-          "Barbalha, no Ceará, tem origem no século XVIII e ficou conhecida por suas tradições religiosas, culturais e pelo cultivo da cana-de-açúcar. Tornou-se município em 1876 e hoje integra a região do Cariri.",
-          "Com origens que remontam ao século XVIII, Barbalha consolidou-se a partir da cultura da cana-de-açúcar e de suas fortes tradições religiosas, tornando-se município em 1876."
+          "Barbalha foi fundada em 1775 e tem uma história fortemente ligada à religiosidade popular, especialmente pela devoção a Santo Antônio.",
+          "A cidade surgiu no século XVIII e consolidou-se como referência cultural e religiosa no Cariri, marcada por suas tradições centenárias."
         ]
       },
       {
-        "perguntas": ["pontos turísticos", "onde ir", "onde visitar", "locais para visita", "visita", "visitar"],
+        "perguntas": ["pontos turísticos", "onde ir", "onde visitar", "locais para visita", "visita", "visitar", "atrativos", "turismo"],
         "respostas": [
-          "Em Barbalha você pode visitar: o Sítio do Farias, o Parque Ecológico Riacho do Meio, o balneário do Caldas, o Arajara Park, a Igreja Matriz de Santo Antônio e a Chapada do Araripe.",
-          "Os atrativos turísticos incluem locais históricos como o Sítio do Farias, áreas de lazer como o balneário do Caldas e belezas naturais como o Parque Riacho do Meio na Chapada do Araripe."
+          "Os principais pontos turísticos incluem o Balneário do Caldas, famoso por suas águas termais, a Igreja do Rosário e os casarões coloniais do centro histórico.",
+          "Entre os atrativos, destacam-se o Balneário do Caldas, as igrejas históricas e a arquitetura preservada, que remetem ao período colonial."
         ]
       },
       {
-        "perguntas": ["festas", "eventos", "festa", "evento", "costumes"],
+        "perguntas": ["festas", "eventos", "festa", "evento", "costumes", "tradições", "romarias", "festividades"],
         "respostas": [
-          "A principal festa de Barbalha é a Festa de Santo Antônio, conhecida nacionalmente pela tradição do Pau da Bandeira, que abre os festejos juninos no Cariri.",
-          "O maior evento do calendário local é a Festa de Santo Antônio, famosa pelo folclórico cortejo do Pau da Bandeira, um marco cultural da região do Cariri."
+          "A Festa de Santo Antônio, realizada em junho, é o maior evento da cidade e ficou famosa pela tradição do Pau da Bandeira.",
+          "Entre as festividades, destaca-se a Festa de Santo Antônio, que reúne milhares de pessoas e é reconhecida como patrimônio imaterial."
         ]
       },
       {
-        "perguntas": ["como chegar", "aeroporto", "estradas", "rodoviária"],
+        "perguntas": ["como chegar", "aeroporto", "estradas", "rodoviária", "transporte", "viagem", "trajeto"],
         "respostas": [
-          "Barbalha está a cerca de 10 km de Juazeiro do Norte. O acesso pode ser feito pelo Aeroporto Orlando Bezerra (em Juazeiro) e por estradas locais como a CE-060 e CE-293.",
-          "Por ser próxima a Juazeiro do Norte, o acesso a Barbalha é facilitado, utilizando o mesmo aeroporto e as rodovias que conectam as cidades do Cariri, como a CE-060."
+          "Barbalha pode ser acessada pelo Aeroporto de Juazeiro do Norte, localizado a poucos quilômetros, além de rodovias estaduais e ônibus intermunicipais.",
+          "O acesso à cidade é feito principalmente por via terrestre, através das rodovias que ligam Barbalha a Juazeiro do Norte e Crato."
         ]
       },
       {
-        "perguntas": ["gastronomia", "comida", "o que comer", "pratos típicos", "culinária"],
+        "perguntas": ["gastronomia", "comida", "o que comer", "pratos típicos", "culinária", "alimentos", "restaurantes"],
         "respostas": [
-          "A gastronomia de Barbalha traz pratos típicos nordestinos como baião de dois, carne de sol, buchada e galinha caipira. Em épocas festivas, destaque para comidas juninas.",
-          "A culinária local é tipicamente nordestina, com pratos como baião de dois e carne de sol. Durante os festejos de junho, a pamonha e a canjica são muito populares."
+          "A culinária local inclui baião de dois, galinha caipira e carne de sol, além de doces regionais servidos em feiras tradicionais.",
+          "A gastronomia é marcada por pratos típicos nordestinos, com destaque para a carne de sol acompanhada de baião e a galinha caipira."
         ]
       },
       {
-        "perguntas": ["compras", "souvenirs", "lembranças", "artesanato"],
+        "perguntas": ["compras", "souvenirs", "lembranças", "artesanato", "presentes", "feiras", "mercado"],
         "respostas": [
-          "Em Barbalha você encontra artesanato em madeira, bordados, rendas e produtos ligados à religiosidade local, além de lembranças da Festa de Santo Antônio.",
-          "O artesanato local é rico, com destaque para trabalhos em madeira e bordados. É possível também adquirir souvenirs da tradicional Festa de Santo Antônio."
+          "O artesanato em madeira e palha, além de lembranças religiosas ligadas a Santo Antônio, são muito procurados na cidade.",
+          "As feiras locais oferecem artesanato regional, produtos típicos e lembranças religiosas ligadas às tradições de Barbalha."
         ]
       }
     ],
     "engraçada": [
       {
-        "perguntas": ["história", "histórias"],
+        "perguntas": ["história", "histórias", "origem", "fundação", "quando surgiu", "criação"],
         "respostas": [
-          "Eita, Barbalha é das antigas, lá do século XVIII! É famosa pelo doce de cana e tradição religiosa. O povo aqui é animado que só!",
-          "Rapaz, Barbalha já era 'point' no século XVIII! Começou com a cana-de-açúcar e hoje é a terra da festa mais arretada de Santo Antônio."
+          "Barbalha é das antigas, viu? Desde 1775 o povo já tava aqui rezando e festejando. Parece até novela de época!",
+          "Aqui a história é arretada: nasceu no século XVIII e nunca perdeu a fama de cidade festeira e religiosa."
         ]
       },
       {
-        "perguntas": ["pontos turísticos", "onde ir", "onde visitar", "locais para visita", "visita", "visitar"],
+        "perguntas": ["pontos turísticos", "onde ir", "onde visitar", "locais para visita", "visita", "visitar", "atrativos", "turismo"],
         "respostas": [
-          "Vai no Sítio do Farias pra ver os engenhos, dá um rolê no Parque Riacho do Meio, relaxa no balneário do Caldas e depois sobe na Chapada do Araripe pra foto bonita. Não esquece da Igreja Matriz!",
-          "Se joga em Barbalha! Tem engenho antigo, água pra relaxar, natureza de monte e a igreja do santo festeiro pra visitar. Roteiro completo!"
+          "Se quiser relaxar, vai logo pro Balneário do Caldas. Água quentinha que parece abraço de vó! Depois dá uma volta no centro e vê os casarões antigos.",
+          "Turistar em Barbalha é fácil: toma banho no Caldas, tira foto nas igrejas e ainda faz pose nos casarões coloniais."
         ]
       },
       {
-        "perguntas": ["festas", "eventos", "festa", "evento", "costumes"],
+        "perguntas": ["festas", "eventos", "festa", "evento", "costumes", "tradições", "romarias", "festividades"],
         "respostas": [
-          "A festa de Barbalha é o bicho! A famosa Festa de Santo Antônio com o Pau da Bandeira é top demais. É a melhor festa junina que você vai ver!",
-          "Se quer agito, venha pra Festa de Santo Antônio! O tal do Pau da Bandeira é uma tradição maluca e divertida que abre os festejos. É festa que não acaba mais!"
+          "Rapaz, a Festa de Santo Antônio é a mais doida do Nordeste! Carregam um pau gigante no meio da rua e o povo vai junto na zoada!",
+          "Aqui festa é coisa séria: Santo Antônio é padroeiro e o Pau da Bandeira é tipo o 'carnaval do Cariri'."
         ]
       },
       {
-        "perguntas": ["como chegar", "aeroporto", "estradas", "rodoviária"],
+        "perguntas": ["como chegar", "aeroporto", "estradas", "rodoviária", "transporte", "viagem", "trajeto"],
         "respostas": [
-          "Barbalha tá coladinha em Juazeiro, uns 10 km só. Chega de avião pelo Aeroporto de Juazeiro ou de carro pelas CE-060 e CE-293. Tem ônibus e van também, de boa!",
-          "Pra chegar aqui é fácil: Barbalha é vizinha de Juazeiro. Pode vir de avião, ônibus, van, jegue... o importante é chegar pra festa!"
+          "É fácil: chega por Juazeiro do Norte e em poucos minutos tá em Barbalha. De carro ou de ônibus, não tem erro.",
+          "Vem pelo aeroporto de Juazeiro, pega a estrada e rapidinho chega aqui. É tão perto que parece bairro vizinho."
         ]
       },
       {
-        "perguntas": ["gastronomia", "comida", "o que comer", "pratos típicos"],
+        "perguntas": ["gastronomia", "comida", "o que comer", "pratos típicos", "culinária", "alimentos", "restaurantes"],
         "respostas": [
-          "Se prepara, mermão! Aqui tem baião de dois, carne de sol, buchada e galinha caipira. Nas festas juninas rola pamonha, canjica e bolo de milho. É de babar!",
-          "A fome bateu? Se joga na carne de sol com baião de dois! E se for junho, pode ir direto na pamonha e na canjica que é sucesso."
+          "Aqui tem baião de dois, galinha caipira e carne de sol que dá sustança até em vaqueiro cansado!",
+          "A comida é daquelas que faz a barriga sorrir: galinha caipira, baião de dois e um docinho pra fechar com chave de ouro."
         ]
       },
       {
-        "perguntas": ["compras", "souvenirs", "lembranças", "artesanato"],
+        "perguntas": ["compras", "souvenirs", "lembranças", "artesanato", "presentes", "feiras", "mercado"],
         "respostas": [
-          "Compra umas coisinhas típicas: artesanato em madeira, bordados, e claro, uma lembrancinha da Festa de Santo Antônio pra fazer inveja nos amigos!",
-          "Leva um artesanato de madeira pra casa, uns bordados pra vó e uma miniatura do Pau da Bandeira pra contar história. Vai fazer bonito!"
+          "Quer lembrança? Compra logo um Santo Antônio, um artesanato de palha e tá feito!",
+          "No mercado e nas feiras tu acha de tudo: boneco de Santo Antônio, cestinha de palha e até doce pra viagem."
         ]
       }
     ],
     "rude": [
       {
-        "perguntas": ["história", "histórias"],
+        "perguntas": ["história", "histórias", "origem", "fundação", "quando surgiu", "criação"],
         "respostas": [
-          "Barbalha é velha, século XVIII. Conhecida por cana-de-açúcar e festa religiosa. É isso.",
-          "Desde o século XVIII, cana e reza. Virou cidade em 1876. Fim."
+          "História? Foi fundada em 1775 e pronto. O resto é enrolação.",
+          "É velha, nasceu no século XVIII. Quer detalhe, compra um livro."
         ]
       },
       {
-        "perguntas": ["pontos turísticos", "onde ir", "onde visitar", "locais para visita", "visita", "visitar"],
+        "perguntas": ["pontos turísticos", "onde ir", "onde visitar", "locais para visita", "visita", "visitar", "atrativos", "turismo"],
         "respostas": [
-          "Sítio do Farias, Parque Riacho do Meio, balneário do Caldas, Arajara, Igreja Matriz e Chapada do Araripe. Vai e acabou.",
-          "A lista é essa: sítio dos engenhos, um parque, umas águas termais, a igreja e a chapada. Não tem segredo."
+          "Tem o Balneário do Caldas e umas igrejas. Fora isso, nada demais.",
+          "Quer turismo? Vai no Caldas tomar banho e pronto. O resto é só prédio velho."
         ]
       },
       {
-        "perguntas": ["festas", "eventos", "festa", "evento", "costumes"],
+        "perguntas": ["festas", "eventos", "festa", "evento", "costumes", "tradições", "romarias", "festividades"],
         "respostas": [
-          "Festa de Santo Antônio com o Pau da Bandeira. Romarias e eventos culturais. Chega cedo ou fica de fora.",
-          "A principal é a de Santo Antônio. O resto é festa pequena. Se vier, venha para essa."
+          "Tem a tal Festa de Santo Antônio, que é só um monte de gente carregando um pau no meio da rua.",
+          "Se gosta de muvuca, vem no Pau da Bandeira. Se não gosta, nem chegue perto."
         ]
       },
       {
-        "perguntas": ["como chegar", "aeroporto", "estradas", "rodoviária"],
+        "perguntas": ["como chegar", "aeroporto", "estradas", "rodoviária", "transporte", "viagem", "trajeto"],
         "respostas": [
-          "Barbalha tá a 10 km de Juazeiro. Aeroporto de Juazeiro, CE-060/CE-293 ou ônibus/van. Fácil.",
-          "É do lado de Juazeiro. Pega o mesmo avião e depois uma van. Resolvido."
+          "Chega por Juazeiro e pronto. Não tem segredo.",
+          "Vem pelo aeroporto de Juazeiro e pega estrada. Acabou."
         ]
       },
       {
-        "perguntas": ["gastronomia", "comida", "o que comer", "pratos típicos"],
+        "perguntas": ["gastronomia", "comida", "o que comer", "pratos típicos", "culinária", "alimentos", "restaurantes"],
         "respostas": [
-          "Baião de dois, carne de sol, buchada. Na festa junina tem pamonha e canjica. Come e pronto.",
-          "Comida nordestina. Baião, carne de sol, galinha. Só pedir."
+          "É baião de dois, galinha caipira e carne de sol. Se não gosta, azar.",
+          "A comida é nordestina normal. Não espere nada diferente."
         ]
       },
       {
-        "perguntas": ["compras", "souvenirs", "lembranças", "artesanato"],
+        "perguntas": ["compras", "souvenirs", "lembranças", "artesanato", "presentes", "feiras", "mercado"],
         "respostas": [
-          "Artesanato em madeira, bordados, rendas e lembranças da festa. Pega e não reclama.",
-          "Lembrancinha da festa e artesanato de madeira. Compra logo."
+          "Vai nas feiras e compra qualquer bugiganga de Santo Antônio.",
+          "As lembranças são só artesanato e coisa religiosa. Nada de outro mundo."
         ]
       }
     ]
@@ -270,135 +271,137 @@
   "crato": {
     "formal": [
       {
-        "perguntas": ["história", "histórias"],
+        "perguntas": ["história", "histórias", "origem", "fundação", "quando surgiu", "criação"],
         "respostas": [
-          "O Crato foi fundado oficialmente em 1764 e é conhecido como um importante polo cultural e educacional na região do Cariri, com forte tradição em arte popular e eventos religiosos.",
-          "Com sua fundação datada de 1764, o Crato consolidou-se como um centro de referência em educação e cultura no Cariri, destacando-se por suas ricas tradições e manifestações artísticas."
+          "O Crato foi fundado em 1764 e se tornou um dos centros mais importantes do Cariri, com papel de destaque na cultura e na economia regional.",
+          "A cidade tem origem no século XVIII e foi marcada pela influência da Igreja Católica e pela organização social em torno das fazendas e do comércio."
         ]
       },
       {
-        "perguntas": ["pontos turísticos", "onde ir", "onde visitar", "locais para visita", "visita", "visitar"],
+        "perguntas": ["pontos turísticos", "onde ir", "onde visitar", "locais para visita", "visita", "visitar", "atrativos", "turismo"],
         "respostas": [
-          "No Crato, você pode visitar a Chapada do Araripe, o Parque de Exposição Pedro Felício Cavalcanti, o Museu de Paleontologia, o centro histórico e o Parque Estadual Sítio Fundão.",
-          "Os principais atrativos incluem as belezas naturais da Chapada do Araripe, o acervo do Museu de Paleontologia do Cariri e a arquitetura do centro histórico da cidade."
+          "Os destaques turísticos incluem a Floresta Nacional do Araripe, a Praça da Sé e o Museu Histórico do Crato.",
+          "Entre os atrativos, estão a Chapada do Araripe, que oferece trilhas e natureza exuberante, e as igrejas históricas do centro."
         ]
       },
       {
-        "perguntas": ["festas", "eventos", "festa", "evento", "costumes"],
+        "perguntas": ["festas", "eventos", "festa", "evento", "costumes", "tradições", "romarias", "festividades"],
         "respostas": [
-          "O Crato realiza a Expocrato, uma das maiores exposições agropecuárias do Nordeste, além de festas religiosas como a de Nossa Senhora da Penha e tradicionais festejos juninos.",
-          "O calendário de eventos do Crato é marcado pela Expocrato, um evento de grande porte com shows e exposições, e por celebrações religiosas importantes como a Festa de Nossa Senhora da Penha."
+          "O Crato é conhecido pela Exposição Agropecuária, realizada anualmente, além de festas religiosas e manifestações culturais típicas do Cariri.",
+          "A Expocrato é o maior evento da cidade, reunindo música, comércio, artesanato e exposições de animais, atraindo visitantes de todo o Nordeste."
         ]
       },
       {
-        "perguntas": ["como chegar", "aeroporto", "estradas", "rodoviária"],
+        "perguntas": ["como chegar", "aeroporto", "estradas", "rodoviária", "transporte", "viagem", "trajeto"],
         "respostas": [
-          "O Crato fica a cerca de 15 km de Juazeiro do Norte. É acessível pelo Aeroporto Orlando Bezerra (em Juazeiro) e por rodovias como a CE-292, que liga as duas cidades.",
-          "O acesso é feito principalmente via Juazeiro do Norte, utilizando o aeroporto local e as rodovias bem conservadas que conectam as cidades da região metropolitana do Cariri."
+          "O Crato pode ser acessado por rodovias estaduais e está a poucos quilômetros do Aeroporto de Juazeiro do Norte.",
+          "O transporte até a cidade é feito principalmente por ônibus intermunicipais e por carro, com boas conexões via rodovias."
         ]
       },
       {
-        "perguntas": ["gastronomia", "comida", "o que comer", "pratos típicos"],
+        "perguntas": ["gastronomia", "comida", "o que comer", "pratos típicos", "culinária", "alimentos", "restaurantes"],
         "respostas": [
-          "A culinária do Crato inclui pratos típicos do Ceará, como baião de dois, carne de sol e galinha caipira. A cidade também é conhecida por suas frutas e pela produção de licores artesanais.",
-          "Além dos pratos tradicionais nordestinos, como a carne de sol, o Crato oferece uma variedade de frutas regionais e bebidas artesanais, como licores e cachaças."
+          "A culinária do Crato é marcada pelo baião de dois, carne de sol e pratos com pequi, além de doces regionais.",
+          "Os restaurantes locais oferecem pratos típicos nordestinos, com destaque para a galinha caipira e comidas à base de milho."
         ]
       },
       {
-        "perguntas": ["compras", "souvenirs", "lembranças", "artesanato"],
+        "perguntas": ["compras", "souvenirs", "lembranças", "artesanato", "presentes", "feiras", "mercado"],
         "respostas": [
-          "O Crato possui feiras de artesanato com rendas, bordados, cerâmica e esculturas em madeira. A Expocrato também é uma ótima oportunidade para compras de produtos locais.",
-          "Para compras, procure as feiras de artesanato no centro da cidade, onde encontrará peças em cerâmica, madeira e bordados que refletem a cultura caririense."
+          "O Mercado Central é famoso pelo artesanato, além de produtos típicos como redes e trabalhos em madeira.",
+          "As feiras do Crato oferecem artesanato regional, lembranças religiosas e comidas típicas produzidas localmente."
         ]
       }
     ],
     "engraçada": [
       {
-        "perguntas": ["história", "histórias"],
+        "perguntas": ["história", "histórias", "origem", "fundação", "quando surgiu", "criação"],
         "respostas": [
-          "Crato é a 'Cidade Sorriso' do Cariri, fundada lá em 1764. É um lugar cheio de cultura, arte e gente boa que te recebe com um sorriso no rosto!",
-          "Essa cidade é antiga pra caramba, de 1764! É chamada de 'Cidade Sorriso' porque a galera aqui é gente fina. Tem cultura e arte pra dar e vender."
+          "O Crato nasceu lá em 1764, mas o povo já fazia festa muito antes. História aqui é mais animada que novela!",
+          "A cidade cresceu no século XVIII e desde então só aumenta o forró e a cultura."
         ]
       },
       {
-        "perguntas": ["pontos turísticos", "onde ir", "onde visitar", "locais para visita", "visita", "visitar"],
+        "perguntas": ["pontos turísticos", "onde ir", "onde visitar", "locais para visita", "visita", "visitar", "atrativos", "turismo"],
         "respostas": [
-          "Vai ver os dinossauros no Museu de Paleontologia, dá um rolê pelo centro antigo e se joga nas trilhas e cachoeiras da Chapada do Araripe. É sucesso!",
-          "Anota aí: tira foto na Chapada do Araripe, aprende sobre dinossauros no Museu, passeia no centro histórico e depois relaxa no Parque Sítio Fundão. Show de bola!"
+          "Quer passeio massa? Vai logo pra Chapada do Araripe. É verde que não acaba mais!",
+          "Se liga: tem Floresta Nacional do Araripe, Praça da Sé e até museu. É programa pra dia inteiro."
         ]
       },
       {
-        "perguntas": ["festas", "eventos", "festa", "evento", "costumes"],
+        "perguntas": ["festas", "eventos", "festa", "evento", "costumes", "tradições", "romarias", "festividades"],
         "respostas": [
-          "No Crato, o negócio pega fogo na Expocrato! É show de música que não acaba mais. Também tem a festa da padroeira e as quadrilhas juninas que são arretadas.",
-          "Se você gosta de festa, a Expocrato é o seu lugar! É uma semana de muito forró, sertanejo e gente bonita. E as festas de santo também são animadas!"
+          "A Expocrato é basicamente um São João com vaquejada e show. Todo mundo aparece!",
+          "Se tiver rolando Expocrato, esqueça: é festa até de madrugada e fila até pra comprar pastel."
         ]
       },
       {
-        "perguntas": ["como chegar", "aeroporto", "estradas", "rodoviária"],
+        "perguntas": ["como chegar", "aeroporto", "estradas", "rodoviária", "transporte", "viagem", "trajeto"],
         "respostas": [
-          "Chegar é facinho: Crato tá colado em Juazeiro. Vem de avião pelo aeroporto de lá ou de carro pela estrada que liga tudo. É um pulo!",
-          "É só seguir a muvuca pra Juazeiro e depois pegar a estradinha pro lado. Em menos de 20 minutos você tá aqui. Não tem como errar!"
+          "Chega de carro ou de ônibus. Se vier de avião, pousa em Juazeiro e rapidinho tá no Crato.",
+          "É tão perto de Juazeiro que se piscar, já passou a entrada da cidade!"
         ]
       },
       {
-        "perguntas": ["gastronomia", "comida", "o que comer", "pratos típicos"],
+        "perguntas": ["gastronomia", "comida", "o que comer", "pratos típicos", "culinária", "alimentos", "restaurantes"],
         "respostas": [
-          "A comida do Crato é daquelas que dá água na boca: baião de dois, carne de sol e galinha caipira. E de sobremesa, se joga nos licores de fruta que são uma delícia!",
-          "Além do clássico baião de dois com carne de sol, aqui você tem que provar as frutas da região. E pra esquentar, um licorzinho artesanal cai bem demais."
+          "Aqui tem baião de dois, carne de sol e até comida com pequi. Só não vale sair com fome!",
+          "A galinha caipira daqui é tão boa que até Santo Antônio ia pedir repetição."
         ]
       },
       {
-        "perguntas": ["compras", "souvenirs", "lembranças", "artesanato"],
+        "perguntas": ["compras", "souvenirs", "lembranças", "artesanato", "presentes", "feiras", "mercado"],
         "respostas": [
-          "As feirinhas de artesanato são o paraíso! Tem renda, bordado, cerâmica... Na Expocrato então, você acha de tudo um pouco. Leva umas coisinhas pra casa!",
-          "Quer lembrancinha? Vai na feira de artesanato e se acaba na cerâmica e nos bordados. É cada coisa linda que dá vontade de levar tudo."
+          "Quer lembrança? Vai no Mercado Central e leva uma rede ou um artesanato bonito.",
+          "As feiras do Crato têm de tudo: rede, artesanato, doce e até lembrancinha de santo."
         ]
       }
     ],
     "rude": [
       {
-        "perguntas": ["história", "histórias"],
+        "perguntas": ["história", "histórias", "origem", "fundação", "quando surgiu", "criação"],
         "respostas": [
-          "Crato, fundado em 1764. Polo de cultura e educação. Ponto final.",
-          "É de 1764. Famoso por cultura e pela Expocrato. Mais nada."
+          "Foi fundada em 1764. Pronto, acabou a história.",
+          "É velha, do século XVIII. Quer saber mais? Vai estudar."
         ]
       },
       {
-        "perguntas": ["pontos turísticos", "onde ir", "onde visitar", "locais para visita", "visita", "visitar"],
+        "perguntas": ["pontos turísticos", "onde ir", "onde visitar", "locais para visita", "visita", "visitar", "atrativos", "turismo"],
         "respostas": [
-          "Chapada do Araripe, Parque de Exposição, Museu de Paleontologia, centro e Sítio Fundão. Vai logo.",
-          "Ou você vai ver os fósseis no museu, ou vai pro mato na Chapada. Escolhe um e vai."
+          "Tem a Chapada do Araripe, umas igrejas e pronto. Não espere muito.",
+          "Vai na floresta ou fica na praça. Escolha é sua."
         ]
       },
       {
-        "perguntas": ["festas", "eventos", "festa", "evento", "costumes"],
+        "perguntas": ["festas", "eventos", "festa", "evento", "costumes", "tradições", "romarias", "festividades"],
         "respostas": [
-          "Expocrato, Festa de Nossa Senhora da Penha e festa junina. Quer festa? Tem.",
-          "Tem a Expocrato que é a maior. O resto é festa de cidade. Decide aí."
+          "Tem a Expocrato, um amontoado de gente, barulho e fila.",
+          "A maior festa é a Expocrato. Se não gosta de confusão, nem vá."
         ]
       },
       {
-        "perguntas": ["como chegar", "aeroporto", "estradas", "rodoviária"],
+        "perguntas": ["como chegar", "aeroporto", "estradas", "rodoviária", "transporte", "viagem", "trajeto"],
         "respostas": [
-          "Crato fica a 15 km de Juazeiro. Aeroporto de Juazeiro ou CE-292. Ônibus/van, simples.",
-          "É do lado de Juazeiro. Usa o mesmo aeroporto e pega uma van. Sem mistério."
+          "Chega por Juazeiro. É perto, não tem segredo.",
+          "De carro ou de ônibus. Simples assim."
         ]
       },
       {
-        "perguntas": ["gastronomia", "comida", "o que comer", "pratos típicos"],
+        "perguntas": ["gastronomia", "comida", "o que comer", "pratos típicos", "culinária", "alimentos", "restaurantes"],
         "respostas": [
-          "Baião de dois, carne de sol, panelada, galinha caipira. Tem licores também. Come ou morre de fome.",
-          "Comida do Ceará. Baião, carne de sol. Se não gostar, o problema é seu."
+          "É baião de dois, carne de sol e galinha caipira. Igual a qualquer cidade do Cariri.",
+          "Se espera algo diferente, azar o seu. É só comida nordestina normal."
         ]
       },
       {
-        "perguntas": ["compras", "souvenirs", "lembranças", "artesanato"],
+        "perguntas": ["compras", "souvenirs", "lembranças", "artesanato", "presentes", "feiras", "mercado"],
         "respostas": [
-          "Rendas, bordados, cerâmica, esculturas de madeira. Leva pra casa e para de frescura.",
-          "Vá na feira de artesanato e compre o que tiver. Não tem muito o que escolher."
+          "Compra no Mercado Central qualquer bugiganga.",
+          "É só artesanato e rede. Nada demais."
         ]
       }
     ]
   }
+
 }
+
